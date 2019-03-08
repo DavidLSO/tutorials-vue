@@ -1,9 +1,17 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <b-nav pills class="nav text-center" id="nav">
+      <b-nav-item to="/">Home</b-nav-item>
+      <b-nav-item to="/one">Projeto One</b-nav-item>
+      <b-nav-item-dropdown
+        id="nav7_ddown"
+        text="Exercicios"
+        extra-toggle-classes="nav-link-custom"
+        right
+      >
+        <b-dropdown-item to="/e-one">One</b-dropdown-item>
+      </b-nav-item-dropdown>
+    </b-nav>
     <router-view />
   </div>
 </template>
