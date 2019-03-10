@@ -2,7 +2,8 @@
   <div id="app">
     <b-nav pills class="nav text-center" id="nav">
       <b-nav-item to="/">Home</b-nav-item>
-      <b-nav-item to="/one">Projeto One</b-nav-item>
+      <b-nav-item to="/one">Project One</b-nav-item>
+      <b-nav-item to="todo">Project Todo</b-nav-item>
       <b-nav-item-dropdown
         id="nav7_ddown"
         text="Exercicios"
